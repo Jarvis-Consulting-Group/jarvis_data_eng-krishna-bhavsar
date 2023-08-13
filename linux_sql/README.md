@@ -79,7 +79,7 @@ The `host_usage` table consists of the following information and is added to eac
     crontab -e
 
     #crontab job
-*    * * * * bash /home/centos/dev/jarvis_data_eng-keyursheladeeya/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
+    * * * * * bash /home/centos/dev/jarvis_data_eng-keyursheladeeya/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 
     #varify the log file
     cat /tmp/host_usage.log
